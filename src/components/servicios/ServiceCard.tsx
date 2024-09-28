@@ -9,7 +9,7 @@ interface Resource{
 
 export default function ServiceCard({icon, title, description}: Resource) {
   return (
-    <Card className="bg-gray-100">
+    <Card className="">
       <CardContent className="p-4">
         <div className="flex items-center space-x-4">
           <div className="bg-primary/10 p-2 rounded-full">
