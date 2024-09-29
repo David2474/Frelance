@@ -10,9 +10,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex items-center flex-col font-[family-name:var(--font-geist-sans)]">
       <Nav />
 
-      <section className="border w-11/12 my-4">
+      <section className="w-11/12 my-4">
         <AboutMe />
-        <div className="my-10 border border-black w-11/12 mx-auto">
+        <div className="my-10 w-11/12 mx-auto">
           <CardContentPakage />
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-11/12 py-4">
         <div className="w-11/12 mx-auto flex flex-col">
           <p className="text-3xl font-semibold mb-4">Mis paquetes</p>
-          <div className="flex flex-col border items-center lg:items-start lg:justify-around border-black flex-nowrap lg:flex-row">
+          <div className="flex flex-col items-center lg:items-start lg:justify-around flex-nowrap lg:flex-row">
             <CardPakage />
           </div>
         </div>

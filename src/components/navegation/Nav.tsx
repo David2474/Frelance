@@ -15,15 +15,15 @@ export default function Nav() {
         >
           ¿Quien soy?
         </a>
-        <li className="cursor-pointer hover:border-b-2 border-black font-bold">
+        <a href="#seccion2" className="cursor-pointer hover:border-b-2 border-black font-bold">
           Proyectos
-        </li>
-        <li className="cursor-pointer hover:border-b-2 border-black font-bold">
+        </a>
+        <a href="#seccion3" className="cursor-pointer hover:border-b-2 border-black font-bold">
           Servicios
-        </li>
-        <li className="cursor-pointer hover:border-b-2 border-black font-bold">
+        </a>
+        <a href="#seccion4" className="cursor-pointer hover:border-b-2 border-black font-bold">
           Contacto
-        </li>
+        </a>
       </div>
     </nav>
   );
