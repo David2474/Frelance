@@ -2,7 +2,10 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLInputElement>>(
   ({ className, type, ...props }, ref) => {
     return (
