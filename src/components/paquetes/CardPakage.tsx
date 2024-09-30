@@ -103,7 +103,7 @@ export default function CardPakage() {
                 );
               })}
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex justify-center items-center">
               <button
                 onClick={handleClick}
                 className={`rounded-md p-2 text-lg text-white ${
