@@ -10,18 +10,15 @@ export default function Nav() {
       </div>
       <div className="list-none hidden md:flex justify-around font-medium w-2/3">
         <a
-          href="#seccion1"
+          href="#aboutme"
           className="cursor-pointer hover:border-b-2 border-black font-bold"
         >
           ¿Quien soy?
         </a>
-        <a href="#seccion2" className="cursor-pointer hover:border-b-2 border-black font-bold">
-          Proyectos
-        </a>
-        <a href="#seccion3" className="cursor-pointer hover:border-b-2 border-black font-bold">
+        <a href="#services" className="cursor-pointer hover:border-b-2 border-black font-bold">
           Servicios
         </a>
-        <a href="#seccion4" className="cursor-pointer hover:border-b-2 border-black font-bold">
+        <a href="#contact" className="cursor-pointer hover:border-b-2 border-black font-bold">
           Contacto
         </a>
       </div>

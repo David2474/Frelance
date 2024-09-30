@@ -10,14 +10,14 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex items-center flex-col font-[family-name:var(--font-geist-sans)]">
       <Nav />
 
-      <section className="w-11/12 my-4">
+      <section id="aboutme" className="w-11/12 my-4">
         <AboutMe />
         <div className="my-10 w-11/12 mx-auto">
           <CardContentPakage />
         </div>
       </section>
 
-      <div className="w-11/12 py-4">
+      <div id="services" className="w-11/12 py-4">
         <div className="w-11/12 mx-auto flex flex-col">
           <p className="text-3xl font-semibold mb-4">Mis paquetes</p>
           <div className="flex flex-col items-center lg:items-start lg:justify-around flex-nowrap lg:flex-row">
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-11/12 flex my-10 justify-center">
+      <div id="contact" className="w-11/12 flex my-10 justify-center">
         <Form/>
       </div>
     </div>
